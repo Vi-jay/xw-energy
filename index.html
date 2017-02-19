@@ -3,10 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="./easyui/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="./easyui/themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="./easyui/themes/color.css">
+    <link rel="stylesheet" type="text/css" href="./easyui/demo/demo.css">
+    <script type="text/javascript" src="./jquery/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="./easyui/jquery.easyui.min.js"></script>
 </head>
 <body>
-<h1>My title111231</h1>
-<a>Click me</a>
-<script src="http://localhost:9000/qianduan.js"></script>
+<h2>Basic DateBox</h2>
+<p>Click the calendar image on the right side.</p>
+<div style="margin:20px 0;"></div>
+<div class="easyui-panel" style="width:100%;max-width:400px;padding:30px 60px;">
+    <div style="margin-bottom:20px">
+        <input class="easyui-datebox" label="Start Date:" labelPosition="top" style="width:100%;">
+    </div>
+    <div style="margin-bottom:20px">
+        <input class="easyui-datebox" label="End Date:" labelPosition="top" style="width:100%;">
+    </div>
+</div>
 </body>
 </html>
